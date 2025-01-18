@@ -1,0 +1,42 @@
+﻿<Window x:Class="DBStore.EmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Employee" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Книги">
+                <ListView x:Name="BooksListView" Margin="10">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="Gray" BorderThickness="1" Padding="10">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Title}" FontSize="16" FontFamily="Segoe UI" />
+                                    <TextBlock Text="{Binding Author}" FontFamily="Segoe UI" />
+                                    <TextBlock Text="{Binding Year}" FontFamily="Segoe UI" />
+                                    <Button Content="Редактировать" Click="EditBookButton_Click" Tag="{Binding Id}" Background="#FF4CAF50" Foreground="White" FontFamily="Segoe UI" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Заказы">
+                <DataGrid x:Name="OrdersDataGrid" AutoGenerateColumns="False" Margin="10">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" />
+                        <DataGridTextColumn Header="Книга" Binding="{Binding Book.Title}" />
+                        <DataGridTextColumn Header="Пользователь" Binding="{Binding User.Login}" />
+                        <DataGridTextColumn Header="Статус" Binding="{Binding Status}" />
+                        <DataGridTemplateColumn Header="Действия">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Подтвердить" Click="ConfirmOrderButton_Click" Tag="{Binding Id}" Background="#FF4CAF50" Foreground="White" FontFamily="Segoe UI" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
