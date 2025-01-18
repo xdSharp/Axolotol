@@ -1,15 +1,10 @@
-
-# Apache
+# Axolotol
 
 Workspace of projects using WPF
-
-
-
 
 ## License
 
 [APACHE](https://www.apache.org/licenses/LICENSE-2.0)
-
 
 ## Run Locally
 
