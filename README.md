@@ -16,7 +16,7 @@ Workspace of projects using WPF
 Clone the project
 
 ```bash
-  git clone https://github.com/xdSharp/Quokka.git
+  git clone https://github.com/xdSharp/Axolotol.git
 ```
 
 ## Author
