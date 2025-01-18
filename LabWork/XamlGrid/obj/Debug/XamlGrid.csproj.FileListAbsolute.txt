@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\zxc\bin\Debug\XamlGrid.exe.config
+C:\Users\User\source\repos\zxc\bin\Debug\XamlGrid.exe
+C:\Users\User\source\repos\zxc\bin\Debug\XamlGrid.pdb
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\zxc\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\zxc\obj\Debug\App.g.cs
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid_MarkupCompile.cache
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid_MarkupCompile.lref
+C:\Users\User\source\repos\zxc\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.g.resources
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.Properties.Resources.resources
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.csproj.GenerateResource.cache
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.exe
+C:\Users\User\source\repos\zxc\obj\Debug\XamlGrid.pdb
